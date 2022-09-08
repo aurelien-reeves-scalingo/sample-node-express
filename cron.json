@@ -1,0 +1,7 @@
+{
+  "jobs": [
+    {
+      "command": "*/2 * * * * echo 'cron task executed'"
+    }
+  ]
+}

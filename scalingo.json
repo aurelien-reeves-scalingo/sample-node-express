@@ -9,5 +9,8 @@
       "amount": 1,
       "size": "S"
     }
+  },
+  "environment": {
+    "TEST": "foo"
   }
 }

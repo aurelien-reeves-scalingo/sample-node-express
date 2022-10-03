@@ -10,7 +10,7 @@
       "size": "S"
     }
   },
-  "environment": {
+  "env": {
     "TEST": {
       "value": "foo"
     }

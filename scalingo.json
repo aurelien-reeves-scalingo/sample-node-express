@@ -11,6 +11,8 @@
     }
   },
   "environment": {
-    "TEST": "foo"
+    "TEST": {
+      "value": "foo"
+    }
   }
 }

@@ -14,7 +14,7 @@
     "TEST": {
       "value": "foo"
     }
-  }
+  },
   "addons": [
     {
       "plan": "mongodb:starter",

@@ -15,12 +15,4 @@
       "value": "foo"
     }
   }
-  "addons": [
-    {
-      "plan": "mongodb:starter",
-      "options": {
-        "version": "4.0.16-1"
-      }
-    }
-  ],
 }

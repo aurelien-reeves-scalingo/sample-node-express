@@ -4,7 +4,7 @@
   "description": "Sample application with Node.js and the framework express",
   "main": "app.js",
   "scripts": {
-    "test": "# node minispec_entrypoint.mjs",
+    "test": "node minispec_entrypoint.mjs",
     "start": "node app.js",
     "build": "npm test"
   },

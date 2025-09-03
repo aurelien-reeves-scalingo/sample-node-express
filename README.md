@@ -41,5 +41,9 @@ test
 | npm      | NPM_CONFIG_PRODUCTION | yes   | no               | Skipped |
 | yarn     | none                  | none  | yes              | yes     |
 | yarn     | none                  | yes   | yes              | yes     |
-| yarn     | YARN_PRODUCTION       | no    | no               |  
-| yarn     | YARN_PRODUCTION       | yes   | no               | 
+| yarn     | YARN_PRODUCTION       | no    | no               | skipped |
+| yarn     | YARN_PRODUCTION       | yes   | no               | skipped |
+| yarn 2+  | none                  | no    | yes              | yes     |
+| yarn 2+  | none                  | yes   | yes              | yes     |
+| yarn 2+  | YARN2_SKIP_PRUNING    | no    | yes              | skipped |
+| yarn 2+  | YARN2_SKIP_PRUNING    | yes   | yes              | skipped |

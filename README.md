@@ -32,11 +32,14 @@ Documentation: https://doc.scalingo.com/languages/javascript/nodejs
 test
 
 
-## prune tests:
+## prune tests
 
 | npm/yarn | env var               | cache | install dev deps | prune   |
 | npm      | none                  | none  | yes              | yes     |
 | npm      | none                  | yes   | yes              | yes     |
 | npm      | NPM_CONFIG_PRODUCTION | none  | no               | skipped |
 | npm      | NPM_CONFIG_PRODUCTION | yes   | no               | Skipped |
-| yarn     | none                  | none  | 
+| yarn     | none                  | none  | yes              | yes     |
+| yarn     | none                  | yes   | yes              | yes     |
+| yarn     | YARN_PRODUCTION       | no    | no               |  
+| yarn     | YARN_PRODUCTION       | yes   | no               | 

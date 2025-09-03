@@ -4,8 +4,9 @@
   "description": "Sample application with Node.js and the framework express",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "test": "node minispec_entrypoint.mjs",
+    "start": "node app.js",
+    "build": "npm test"
   },
   "engines": {
     "node": "22.x"

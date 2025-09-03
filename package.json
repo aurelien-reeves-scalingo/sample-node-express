@@ -19,5 +19,8 @@
   },
   "environment": {
     "TEST": "foo"
+  },
+  "devDependencies": {
+    "minispec": "^1.3.0"
   }
 }

@@ -10,6 +10,11 @@
       "size": "S"
     }
   },
+  "addons": [
+    {
+      "plan": "postgresql:postgresql-sandbox"
+    }
+  ],
   "env": {
     "TEST": {
       "value": "foo"

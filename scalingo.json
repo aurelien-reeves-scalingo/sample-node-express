@@ -12,7 +12,7 @@
   },
   "addons": [
     {
-      "plan": "postgresql:postgresql-sandbox",
+      "plan": "postgresql:postgresql-sandbox"
     }
   ],
   "env": {
